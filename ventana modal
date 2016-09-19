@@ -1,0 +1,80 @@
+<script src="https://code.jquery.com/jquery.js"></script>
+    <div class="container" style="margin-top: 60px;">
+
+    
+    
+      <div class="modal fade" id="miventana" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 align="center">Formulario de prestamo de herramientas</h4>
+            </div>
+                <div>
+                   <p class="contact"><label for="name">Nombre</label></p>
+                        <input name="nombre" placeholder="Nombre completo" class="form-control" required="" type="text">
+      
+                        <p class="contact"><label for="email">Correo misena</label></p> 
+                         <input name="correo" placeholder="Ejemplo@misena.edu.co" class="form-control" required="" type="email">     
+
+                          <p class="contact"><label for="ficha">Nº de ficha</label></p> 
+                        <input  name="ficha" class="form-control" required="" type="text"> 
+
+                            <p><label>Fecha de prestamo</label>
+               ​              <input type="date" name="fechaP"              step="1" min="2016-08-30" max="             2016-12-31">​</p>
+
+                            <p><label>Fecha de devolucion</label>
+                            ​<input type="date" name="fechaD" step="1" min="2016-08-30" max="2016-12-31">​</p>
+
+                       <p><label>selccione su cargo &nbsp;<select class="Rol" name="cargo" required="">
+                             <option value="select">Rol..</option>
+                             <option value="aprendiz">Aprendiz</option>
+                             <option value="instructor">Instructor</option>
+                             <option value="contratistas">Contratista</option>   
+                            </select><br><br></p>
+
+                            <p><label>Programa de formacion &nbsp;<select class="....." name="programa" required="">
+                             <option value="select">salon</option>
+                             <option value="aprendiz">ADSI</option>
+                             <option value="instructor">MCDC</option>
+                             <option value="contratistas">mantenimiento</option>   
+                            </select><br><br></p>
+                      
+                            <p><label>selccione hambiente &nbsp;<select class="Rol" name="cargo" required="">
+
+                             <option value="select">hambiente</option>
+                             <option value="201">201</option>
+                             <option value="202">202</option>
+                             <option value="203">203</option>
+                             <option value="204">204</option>
+                             <option value="205">205</option>
+                             <option value="301">301</option>
+                             <option value="302">302</option>
+                             <option value="303">303</option>
+                             <option value="304">304</option>
+                             <option value="305">305</option>
+                             <option value="401">401</option>
+                             <option value="402">401</option>       
+                            </select><br><br></p>
+                        
+                              <p class="contact"><label for="phone">Telefono</label></p> 
+                              <input name="telefono"  class="form-control" required="" type="number"> <br>
+
+
+                              <div class="modal-footer">  
+                              
+                              <button class="btn btn-primary
+                              " >Enviar</button>
+
+
+                              <button class="btn btn-primary" data-dismiss="modal" >cerrar</button>
+                </div>
+
+            </div>
+
+          </div>
+        </div>
+      
+      </div>
+    </div>
